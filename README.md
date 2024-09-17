@@ -4,9 +4,10 @@
 
 ## Overview
 > In this study, we conducted a comprehensive evaluation of existing TCR and epitope prediction models, focusing on their performance in both seen and unseen epitope scenarios and identifying key factors that influence model performance.
-
+	
+	
 ## Code Structure
-We have developed three modules for each model: (1)original model predictions, (2)model retraining, (3)and predictions from the retrained model on both seen and unseen data. Users can select either to retrain the model or to generate predictions, depending on their requirements.The relevant code is saved in each folder as a Jupyter notebook, with the file name matching the model's name.
+We have developed three modules for each model: (1)original model-based prediction, (2)model retraining, and (3)retrained model-based prediction on both seen and unseen data. You can select either to retrain the model or to generate predictions depending on your requirements. The relevant code for each model, contained in a Jupyter notebook, is saved in a separate folder with a file name that matches the model's name.
 
 
 
@@ -35,9 +36,9 @@ If your data is unlabeled and you are only interested in the predictions, simply
 We have organized the prediction code for each original model, which is stored in the first module of the Jupyter notebook in each model folder. It has been encapsulated into a function named ```Original_model_prediction```. You can directly run this function in Jupyter. For usage, refer to the following command:
 
 ```
-testfile_path="data/test.csv"
-modelfile_path="Original_model/original.ckpt"
-result_path="result_path/Original_model_prediction"
+testfile_path="./data/test.csv"
+modelfile_path="./Original_model/original.ckpt"
+result_path="./result_path/Original_model_prediction"
 Original_model_prediction(testfile_path,modelfile_path,result_path)
 ```
 
@@ -45,10 +46,10 @@ Original_model_prediction(testfile_path,modelfile_path,result_path)
 We have refactored the training and testing code for each model into a function named ```Model_retraining```. You can directly call this function in the second module of the Jupyter notebook within the respective model folder. For usage, please refer to the following method:
 
 ```
-trainfile_path ="data/train.csv"
-testfile_path="data/test.csv"
-save_model_path="Retraining_model/Retraining_model.ckpt"
-result_path="result_path/Retraining_model_prediction"
+trainfile_path ="./data/train.csv"
+testfile_path="./data/test.csv"
+save_model_path="./Retraining_model/Retraining_model.ckpt"
+result_path="./result_path/Retraining_model_prediction"
 Model_retraining(trainfile_path,testfile_path,save_model_path,result_path) 
 ```
 
@@ -56,9 +57,9 @@ Model_retraining(trainfile_path,testfile_path,save_model_path,result_path)
 
 Meanwhile, if you want to use your own trained model for prediction, you can call the ```Retraining_model_prediction ``` function in the third module of the Jupyter notebook. The usage is as follows:
 ```
-testfile_path="data/Validation.csv"
-modelfile_path="Retraining_model/Retraining_model.ckpt"
-result_path="result_path/Retraining_model_prediction"
+testfile_path="d./ata/Validation.csv"
+modelfile_path="./Retraining_model/Retraining_model.ckpt"
+result_path="./result_path/Retraining_model_prediction"
 Retraining_model_prediction(testfile_path,modelfile_path,result_path)
 ```
 
@@ -74,11 +75,12 @@ GLCTLVAML,CSATGTSGRVETQYF,0,1,0.68
 
 If you already know the actual TCR and epitope binding labels, you can calculate the model prediction accuracy using the Jupyter file we provided, named ```Evaluation_metrics_calculation ``` . You can directly call the  ``` calculate ```  function from that file. The usage is as follows:
 ``` 
-data_path="result_path/predition.csv"
-result_path="result_path/predition"
+data_path="./result_path/predition.csv"
+result_path="./result_path/predition"
 column='epitope'
 calculate(data_path, result_path, column)
 ```
 
 
-Note: Due to code permission issues, the models DLpTCR-FULL, DLpTCR-CNN, and DLpTCR-RESNET can be accessed and used via their respective GitHub repositories(https://github.com/jiangBiolab/DLpTCR).
+Note: Due to code permission issues, the models DLpTCR-FULL, DLpTCR-CNN, and DLpTCR-RESNET can only be accessed and used via the GitHub repository (https://github.com/JiangBioLab/DLpTCR/).
+
