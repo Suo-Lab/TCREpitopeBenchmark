@@ -4,7 +4,8 @@
 
 ## Overview
 > In this study, we conducted a comprehensive evaluation of existing TCR and epitope prediction models, focusing on their performance in both seen and unseen epitope scenarios and identifying key factors that influence model performance.
-	
+
+<img width="1140" alt="截屏2024-08-08 下午2 18 18" src="https://github.com/user-attachments/assets/4052a5ea-9ad3-467b-a936-b481ba213273">
 	
 ## Code Structure
 We have developed three modules for each model: (1)original model-based prediction, (2)model retraining, and (3)retrained model-based prediction on both seen and unseen data. You can select either to retrain the model or to generate predictions depending on your requirements. The relevant code for each model, contained in a Jupyter notebook, is saved in a separate folder with a file name that matches the model's name.
