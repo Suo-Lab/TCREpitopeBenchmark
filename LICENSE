@@ -1,19 +1,24 @@
-MIT License
 
-Copyright (c) 2024 SuoLab-GZLabb
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for academic, non-profit, and research purposes, including use in educational contexts.   For commercial purposes—including but not limited to software development, pharmaceutical research, or the provision of services—users must contact SuoLab-GZLab to obtain a separate commercial license agreement.
+Copyright (c) 2024 SuoLab-GZLab
+
+
+The code and models provided by this benchmark study are subject to: 
+
+
+1. The following terms and conditions: 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for academic, non-profit, and research purposes, including use in educational contexts. For commercial purposes—including but not limited to software development, pharmaceutical research, or the provision of services—users must contact SuoLab-GZLab to obtain a separate commercial license agreement.
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+2. The LICENSE documents provided by all TCR-epitope binding prediction models covered in this study at the time of their publication:
 
-In addition to complying with our LICENSE, priority should be given to adhering to the LICENSE corresponding to each individual model when using the following models.
+(1-2) AttnTAP(AttnTAP-vdj,AttnTAP-mc)
 
-
-(1)AttnTAP:
 Copyright (c) 2022 Institute of Data Science and Information Quality, Shaanxi Engineering Research Center of Medical and Health Big Data, Xi'an Jiaotong University.
 All rights reserved.
 
@@ -45,9 +50,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
 
-
-
-(2)ERGO(ERGO-AE.ERGO-lstm):
+(3-6) ERGO (ERGO-AE-vdj,ERGO-AE-mc,ERGO-lstm-vdj,ERGO-lstm-mc)
 
 MIT License
 
@@ -72,9 +75,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+(7) ImRex
 
-
-(3)ImRex:
 License for non-commercial use only
 
 Copyright (c) 2021, ADREM data lab, University of Antwerp
@@ -101,22 +103,25 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+(8) NetTCR
 
-(4)NetTCR:
 NetTCR-2.0 is developed by Morten Nielsen's group at the Technical University of Denmark (DTU). NetTCR-2.0 code and data can be used freely by academic groups for non-commercial purposes. If you plan to use NetTCR or any data provided with the script in any for-profit application, you are required to obtain a separate license (contact Morten Nielsen, morni@dtu.dk).
 
 For scientific questions, please contact Morten Nielsen (mniel@dtu.dk).
 
 
-(5)SETE:
-The original LICENSE for this model is not provided. Please refer to our LICENSE for compliance.
+(9) SETE
+
+The original LICENSE for this model was not provided. Please refer to our LICENSE for compliance.
 
 
-(6)TPBTE:
-The original LICENSE for this model is not provided. Please refer to our LICENSE for compliance.
+(10-11) TPBTE(TPBTE-vdj,TPBTE-mc)
+
+The original LICENSE for this model was not provided. Please refer to our LICENSE for compliance.
 
 
-(7)TCRGP:
+(12) TCRGP
+
 MIT License
 
 Copyright (c) 2019 Emmi Jokinen
@@ -140,9 +145,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+(13) TEIM
 
-
-(8)TEIM:
 MIT License
 
 Copyright (c) 2022 Peng Xingang
@@ -166,9 +170,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+(14-15) TEINet(TEINet-small,TEINet-lager)
 
-
-(9)TEINet:
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -845,9 +848,8 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 
 
+(16) epiTCR
 
-
-(10)epiTCR:
 MIT License
 
 Copyright (c) 2023 Phạm Nguyễn Mỹ Diễm
@@ -871,10 +873,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+(17) TCR-BERT
 
-
-
-(11)TCR-BERT:
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -1078,14 +1078,16 @@ SOFTWARE.
    limitations under the License.
 
 
+(18) ATM-TCR
 
-(12)ATM-TCR:
 This work is licensed under a Creative Commons Attribution 4.0 International License(https://creativecommons.org/licenses/by/4.0/).
 
 
+(19-21) DLpTCR (DLpTCR-FULL, DLpTCR-CNN, DLpTCR-RESNET)
 
-(13)DLpTCR（DLpTCR-FULL, DLpTCR-CNN,DLpTCR-RESNET）：
 The DLpTCR code is freely accessible to all interested parties. 
 It is free for academic, non-profit, and research use, and can be licensed for commercial use.
 To use this software for the development of a commercial product, including but not limited to software, service, or pharmaceuticals, please contact the lead corresponding author.
 Redistribution of the code with or without modification is not permitted without explicit written permission by the lead corresponding author.
+
+
