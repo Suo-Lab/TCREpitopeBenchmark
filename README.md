@@ -8,7 +8,7 @@
 <img width="1140" alt="截屏2024-08-08 下午2 18 18" src="fig/20240917-171310.jpeg">
 	
 ## Code Structure
-We have developed three modules for each model: (1)original model-based prediction, (2)model retraining, and (3)retrained model-based prediction on both seen and unseen data. You can select either to retrain the model or to generate predictions depending on your requirements. The relevant code for each model, contained in a Jupyter notebook, is saved in a separate folder with a file name that matches the model's name. Additionally, we provide the process for preprocessing all original datasets ```(Original_model_data_statistics.ipynb)```, the process for preprocessing retrained datasets ```(Raw_database_data_filtering.ipynb)```, the process for matching negative datasets ```(Negative_dataset_matching.ipynb)```, and the plotting process for all figures in the article ```(fig)```。
+We have developed three modules for each model: (1)original model-based prediction, (2)model retraining, and (3)retrained model-based prediction on both seen and unseen data. You can select either to retrain the model or to generate predictions depending on your requirements. The relevant code for each model, contained in a Jupyter notebook, is saved in a separate folder with a file name that matches the model's name. Additionally, we provide the process for preprocessing all original datasets ```(Original_model_data_statistics.ipynb)```, the process for preprocessing retrained datasets ```(Raw_database_data_filtering.ipynb)```, the process for matching negative datasets ```(Negative_dataset_matching.ipynb)```, and the plotting process for all figures in the article ```(fig)```.
 
 
 
