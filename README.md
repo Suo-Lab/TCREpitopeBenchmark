@@ -13,7 +13,7 @@ There are three modules for each model: (1)original model-based prediction, (2)m
 
 
 ## Requirements
-You need to create a separate environment for each model as these models are based on different Python framework and packages. During model evaluation, we configured a separate environment for each model according to the requirements file provided in its GitHub repository. All environments were stored in the ``` environment ``` folder for easy access.
+You need to create a separate environment for each model as these models are based on different Python framework and packages. During model evaluation, we configured a separate environment for each model according to the requirements file provided in its GitHub repository. All environments were stored in the ``` environment ``` folder for easy access. The time required to configure the environment depends on factors such as the number of model dependencies, network speed, and hardware performance.
 
 ## Input File Format
 
